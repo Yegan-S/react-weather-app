@@ -42,10 +42,10 @@ if (loaded){
 
     );
     } else{
-        let apiKey="cad4a7b2655c670bbf4e9139ebd662ce";
-        let longitude = props.coordinates.lon;
-        let latitude = props.coordinates.lat;
-        let apiUrl = `https://api.openweathermap.org/data/2.5/forecast/daily?lat=${latitude}&lon=${longitude}&appid=${apiKey}$units=metric`
+      let apiKey = "tb5f08b166ada0ab28a3f4o4dec6c3e0";
+        let lon = props.coordinates.longitude;
+        let lat= props.coordinates.latitude;
+       let apiUrl =`https://api.shecodes.io/weather/v1/forecast?lon=${lon}&lat=${lat}&key=${apiKey}&units=metric`;
     axios.get(apiUrl).then(handleResponse);
     return null;
     
