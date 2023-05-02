@@ -5,3 +5,9 @@
     opacity: 0.6;
     margin-left: 5px;
 }
+.weatherForecast-icon img{
+    width: 42px;
+}
+.weatherForecast-temperatures{
+    font-size: 14px;
+}

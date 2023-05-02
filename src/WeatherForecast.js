@@ -28,7 +28,7 @@ if (loaded){
 
         if (index < 6) {
         return(
-            <div className="col" key={index}>
+            <div className="col-2" key={index}>
     <WeatherForecastDay data={dailyForecast} />
 </div>
         );
