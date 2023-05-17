@@ -9,5 +9,10 @@
     width: 42px;
 }
 .weatherForecast-temperatures{
-    font-size: 14px;
+    font-size: 12px;
+}
+@media(max-width:320px){
+    .weatherForecast-temperature-min {
+            margin: 0 auto;
+        }
 }
